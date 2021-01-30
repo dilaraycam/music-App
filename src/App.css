@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  #musicCard {
+    height: 400px;
+    width: 500px;
+  }
+  #musicPhoto {
+    margin-top: 40px;
+  }
+  #searchMusic {
+    font-size: 22px;
+    margin-top: 0;
+  }
+  #spanText {
+    font-size: 28px;
+  }
+  #search {
+    width: 200px;
+    margin-left: 35px;
+    height: 40px;
+    font-size: 15px;
+  }
+  #b {
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+  #songAlign {
+    margin-left: 0px;
+    padding-top: 50px;
+    width: 500px;
+    height: 300px;
+  }
+  #cardFont {
+    font-size: 13px;
+  }
+  #cardPosition {
+    width: 300px;
+    margin-left: 0px;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#conCol {
+  background-color: #6a5acd;
+}
+body {
+  background-color: #6a5acd;
+}

@@ -1,0 +1,14 @@
+
+#musicCard{
+    height:600px;
+    opacity: 0.6;
+    
+}
+#searchMusic{
+    font-size: 50px;
+    margin-top: 20px;
+}
+#spanText{
+    color:yellow;
+    font-size:60px;
+}

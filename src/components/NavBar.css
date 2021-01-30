@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Gorditas:wght@400;700&display=swap');
+#nutImg{
+    width: 60px;
+    height: 60px;
+    
+}
+#nut{
+    font-size: 40px;
+    margin-left: 50px;
+    font-family: 'Gorditas', cursive;
+    color: #fff;
+    
+}
+#navColor{
+    background-color: #6a5acd;
+    
+}
+#textFont{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+}
+.textFont{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+}
+#profile{
+    height: 35px;
+    width:35px;
+}
+.navbar-nav .nav-link{
+    color: #fff;
+  }
