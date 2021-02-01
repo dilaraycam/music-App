@@ -74,7 +74,7 @@ function Search(props) {
         </div>
      
       <div className="row">
-        <div className="col-sm-6 offset-5" id="songAlign">
+        <div className="col-sm-12 offset-6" id="songAlign">
           <ul class="list-group mt-3">
           {searchResult}
           </ul>

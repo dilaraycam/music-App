@@ -1,8 +1,12 @@
 .App {
   text-align: center;
 }
+body{
+overflow-x:hidden;
+}
 
 @media screen and (max-width: 600px) {
+  
   #musicCard {
     height: 400px;
     width: 500px;
@@ -19,30 +23,33 @@
   }
   #search {
     width: 200px;
-    margin-left: 35px;
+    transform: translate(15%, -50%);
     height: 40px;
     font-size: 15px;
   }
   #b {
     width: 80px;
     height: 40px;
-    margin-top: 10px;
-    margin-left: 20px;
+    transform: translate(-200%, -80%);
     font-size: 14px;
   }
   #songAlign {
     margin-left: 0px;
-    padding-top: 50px;
-    width: 500px;
-    height: 300px;
+    padding-top: 10px;
+  
   }
   #cardFont {
     font-size: 13px;
+  }
+  #buttonFont {
+    font-size: 13px;
+    transform: translate(0%, -40%);
   }
   #cardPosition {
     width: 300px;
     margin-left: 0px;
   }
+ 
 }
 
 .App-header {
