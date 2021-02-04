@@ -47,20 +47,19 @@ function Search(props) {
 
   return (
     <>
-  
-        <div className="col-sm-6 offset-sm-3">
-          <form className="mt-4" onSubmit={handleForm}>
-            <div className="form-group" id="f">
-              <input
-                name="q"
-                type="text"
-                className="form-control form-control-lg"
-                id="search"
-                placeholder="senorita,dance monkey..."
-                //value={inputValue}
-                ref={inputValue}
-              />
-               <button
+      <div className="col-sm-6 offset-sm-3">
+        <form className="mt-4" onSubmit={handleForm}>
+          <div className="form-group" id="f">
+            <input
+              name="q"
+              type="text"
+              className="form-control form-control-lg"
+              id="search"
+              placeholder="senorita,dance monkey..."
+              //value={inputValue}
+              ref={inputValue}
+            />
+            <button
               id="b"
               type="submit"
               className="btn btn-outline-warning btn-lg"
@@ -68,17 +67,13 @@ function Search(props) {
             >
               Search
             </button>
-            </div>
+          </div>
+        </form>
+      </div>
 
-           
-          </form>
-        </div>
-     
       <div className="row">
         <div className="col-sm-12 offset-6" id="songAlign">
-          <ul className="list-group ">
-          {searchResult}
-          </ul>
+          <ul className="list-group mt-5">{searchResult}</ul>
         </div>
       </div>
     </>
