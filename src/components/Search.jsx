@@ -23,7 +23,7 @@ function Search(props) {
       const songsResults = songs.results
         .filter(item => item.title.toLowerCase().includes(q.toLowerCase()))
         .map(item => (
-          <li key={item.id} class="list-group-item" id="listCol">
+          <li key={item.id} className="list-group-item" id="listCol">
             <Link to={`/allsongs/${item.id}`} />
             <SongCard
               id={item.id}
@@ -60,22 +60,23 @@ function Search(props) {
                 //value={inputValue}
                 ref={inputValue}
               />
-            </div>
-
-            <button
+               <button
               id="b"
               type="submit"
-              class="btn btn-outline-warning btn-lg"
+              className="btn btn-outline-warning btn-lg"
               onClick={handleForm}
             >
               Search
             </button>
+            </div>
+
+           
           </form>
         </div>
      
       <div className="row">
         <div className="col-sm-12 offset-6" id="songAlign">
-          <ul class="list-group mt-3">
+          <ul className="list-group ">
           {searchResult}
           </ul>
         </div>
